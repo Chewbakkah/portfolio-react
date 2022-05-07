@@ -105,12 +105,101 @@ nav {
   width: 75%;
 }
 
-
 /* HOME ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+/* CONTACT STARTS HERE ------------------------------------------------------------------------------------------------------------ */
+
+.contact-page {
+  padding-top: 15%;
+  padding-left: 15%;
+}
+
+.contact-logo-holder {
+  text-align: center;
+}
+
+.contact-logo {
+  width: 45%;
+}
+
+.contact-form-holder h1 {
+  color: #ffffff;
+}
+
+.contact-form-holder p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contact-form ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.input-area {
+  text-align: left;
+}
+
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #4e2683;
+  background: #000000;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 8px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  min-height: 120px;
+}
+
+.contact-form input {
+  border: 1px solid #4e2683;
+  background: #000000;
+  width: 100%;
+  padding: 4px;
+  color: #ffffff;
+}
+
+.padding-zero {
+  padding: 0;
+}
+
+/* CONTACT  ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+
+/* GLOBAL STYLING ---------------------------------------------------------------------------------------------------------------------------- */
+.flat-button {
+  color: #4e2683;
+  font-size: 1vw;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 3px solid #4e2683;
+  margin-top: 25px;
+  float: left;
+  white-space: nowrap;
+  background: 0 0;
+}
+
+.flat-button:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #4e2683;
+}
+
 
 
 @media (max-width: 1920px) {
-
   .nav-bar a {
     font-size: 1.5vw;
   }
@@ -118,12 +207,9 @@ nav {
   .home-text-container {
     padding-left: 15%;
   }
-
 }
 
-
 @media (max-width: 1200px) {
-
   .nav-bar a {
     font-size: 2vw;
   }
@@ -133,11 +219,12 @@ nav {
     padding-left: 10%;
   }
 
+  .flat-button {
+    font-size: 2.5vw;
+  }
 }
 
-
 @media (max-width: 990px) {
-
   .nav-bar a {
     font-size: 3vw;
   }
@@ -150,13 +237,16 @@ nav {
   .welcome-text {
     font-size: 5vw;
   }
-  
+
   .intro-text {
     font-size: 4vw;
   }
-  
+
   .job-text {
     font-size: 5vw;
   }
 
+  .flat-button {
+    font-size: 3vw;
+  }
 }

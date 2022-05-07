@@ -45,11 +45,14 @@ const Home = () => {
     
 return (
 <div className="container-fluid">
-    <div className="row">
+    <div className="row align-items-center">
         <div className="col-lg-6 home-text-container">
             <span className="welcome-text">{textArray1[index1]}</span>
             <span className="intro-text">I'm Cheyne Etie,</span>
             <span className="job-text">{textArray2[index2]}</span>
+            <Link to="/contact" className="flat-button">
+          CONTACT ME
+        </Link>
         </div>
         <div className="col-lg-6 home-logo-container">
         <img className="home-logo" src={LogoLG} alt="CAE" />
