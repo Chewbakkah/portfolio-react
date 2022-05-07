@@ -10,13 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
+  color: #999999;
 }
 
-
-
-.home-logo {
-  width: 75%;
-}
+/* NAV STARTS HERE-------------------------------------------------------------------------------------------------------------- */
 
 .nav-bar {
   background: #111111;
@@ -75,15 +72,51 @@ nav {
   max-width: 100px;
 }
 
+/* NAV ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+/* HOME STARTS HERE ------------------------------------------------------------------------------------------------------------ */
+
+.home-text-container {
+  text-align: left;
+  padding-top: 15%;
+  padding-left: 20%;
+}
+
+.welcome-text {
+  display: block;
+  font-size: 3vw;
+}
+
+.intro-text {
+  display: block;
+  font-size: 2.5vw;
+}
+
+.job-text {
+  display: block;
+  font-size: 3vw;
+}
+
+.home-logo-container {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.home-logo {
+  width: 75%;
+}
 
 
-
+/* HOME ENDS HERE ------------------------------------------------------------------------------------------------------------ */
 
 
 @media (max-width: 1920px) {
 
   .nav-bar a {
     font-size: 1.5vw;
+  }
+
+  .home-text-container {
+    padding-left: 15%;
   }
 
 }
@@ -95,13 +128,35 @@ nav {
     font-size: 2vw;
   }
 
+  .home-text-container {
+    padding-top: 15%;
+    padding-left: 10%;
+  }
+
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
 
   .nav-bar a {
     font-size: 3vw;
+  }
+
+  .home-text-container {
+    padding-top: 15%;
+    padding-left: 20%;
+  }
+
+  .welcome-text {
+    font-size: 5vw;
+  }
+  
+  .intro-text {
+    font-size: 4vw;
+  }
+  
+  .job-text {
+    font-size: 5vw;
   }
 
 }
