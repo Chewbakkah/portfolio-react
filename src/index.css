@@ -175,6 +175,82 @@ nav {
 }
 
 /* CONTACT  ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+/* ABOUT ME STARTS HERE ------------------------------------------------------------------------------------------------------------ */
+
+.profile-photo {
+  width: 45%;
+  max-width: 600px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.about-holder {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.iconRow {
+  display: flex;
+  padding-top: 10px;
+}
+
+.icon {
+  font-size: 40px;
+  padding: 10px;
+  color: rgba(255,255,255,0.07);
+}
+
+.icon-html:hover {
+  color: #f06529;
+}
+
+.icon-css:hover {
+  color: #28A4D9;
+}
+
+.icon-react:hover {
+  color: #5ED4F4;
+}
+
+.icon-js:hover {
+  color: #EFD81D;
+}
+
+.icon-node:hover {
+  color: #3C873A;
+}
+
+.about-header {
+  color: #ffffff;
+  font-size: 2.5vw;
+}
+
+.about-text {
+  font-size: 0.9vw;
+}
+
+.sub-heading {
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.history-button {
+  display: flex;
+}
+
+.history-text {
+  display: flex;
+}
+
+
+/* ABOUT ME ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+
 
 /* GLOBAL STYLING ---------------------------------------------------------------------------------------------------------------------------- */
 .flat-button {
@@ -222,6 +298,15 @@ nav {
   .flat-button {
     font-size: 2.5vw;
   }
+
+  .about-header {
+    color: #ffffff;
+    font-size: 3vw;
+  }
+  
+  .about-text {
+    font-size: 1.2vw;
+  }
 }
 
 @media (max-width: 990px) {
@@ -249,4 +334,19 @@ nav {
   .flat-button {
     font-size: 3vw;
   }
+
+  .about-header {
+    color: #ffffff;
+    font-size: 4vw;
+  }
+  
+  .sub-heading {
+    font-size: 3vw;
+  }
+
+  .about-text {
+    font-size: 2vw;
+  }
+
+  
 }

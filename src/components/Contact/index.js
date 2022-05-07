@@ -86,46 +86,6 @@ export const Contact = () => {
                     <input type="submit" className="flat-button" value="SEND" />
                   </li>
                 </div>
-                {/* <ul>
-                <li className="half">
-                  <input
-                    placeholder="Your Name"
-                    type="text"
-                    name="name"
-                    className="submit-text"
-                    required
-                  />
-                </li>
-                <li className="half">
-                  <input
-                    placeholder="Reply Email"
-                    type="email"
-                    name="email"
-                    className="submit-text"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    placeholder="Email Subject"
-                    type="text"
-                    name="subject"
-                    className="submit-text"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Email Message"
-                    name="message"
-                    className="submit-text"
-                    required
-                  ></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul> */}
               </form>
             </div>
           </div>
