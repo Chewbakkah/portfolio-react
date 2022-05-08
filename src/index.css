@@ -242,6 +242,7 @@ nav {
 
 .history-button {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .history-text {
@@ -250,6 +251,26 @@ nav {
 
 
 /* ABOUT ME ENDS HERE ------------------------------------------------------------------------------------------------------------ */
+/* PORTFOLIO STARTS HERE ------------------------------------------------------------------------------------------------------------ */
+
+.projects {
+  font-size: 2vw;
+}
+
+.project-title {
+  font-size: 1.75vw;
+}
+
+.portfolio {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.summary {
+  color: #ffffff;
+}
+
+/* PORTFOLIO ENDS HERE ------------------------------------------------------------------------------------------------------------ */
 
 
 /* GLOBAL STYLING ---------------------------------------------------------------------------------------------------------------------------- */
@@ -307,6 +328,19 @@ nav {
   .about-text {
     font-size: 1.2vw;
   }
+
+  .projects {
+    font-size: 4vw;
+  }
+  
+  .project-title {
+    font-size:3vw;
+    padding-top: 30px;
+  }
+
+  .summary {
+    padding-left: 12%;
+  }
 }
 
 @media (max-width: 990px) {
@@ -348,5 +382,17 @@ nav {
     font-size: 2vw;
   }
 
+  .projects {
+    font-size: 4vw;
+  }
+  
+  .project-title {
+    font-size:3vw;
+    padding-top: 30px;
+  }
+
+  .summary {
+    padding-left: 3%;
+  }
   
 }

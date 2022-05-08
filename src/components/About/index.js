@@ -30,6 +30,12 @@ const About = () => {
       <div className="row align-items-center">
         <div className="col-lg-7 about-holder">
           <h1 className="about-header">About Me</h1>
+          <div className="history-button">
+          {active2 === "max" && <button
+              className="flat-button"
+              onClick={() => handleClick2()}
+            >Nevermind, Go Back</button>}
+          </div>
           <div className="history-text">
             {active1 === "less" && <Short />}
             {active1 === "more" && <Long />}
@@ -38,24 +44,7 @@ const About = () => {
             {active2 === "min" && <button
               className="flat-button"
               onClick={() => handleClick1()}
-            >Show Me More</button>}
-            {active2 === "max" && <button
-              className="flat-button"
-              onClick={() => handleClick2()}
-            >Show Me Less</button>}
-
-            {/* <button
-              className="flat-button"
-              onClick={() => handleClick1()}
-            >
-              Short Story
-            </button>
-            <button
-              className="flat-button"
-              onClick={() => setActive1("more")}
-            >
-              The Full Story
-            </button> */}
+            >Show Me More</button>}            
           </div>
           <div className="iconRow">
             <div className="icon icon-html">
