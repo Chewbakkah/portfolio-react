@@ -67,7 +67,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
             href="https://drive.google.com/file/d/1wd4DIIglTYjilzD4Nb5BLWaxmzRlbg-6/view?usp=sharing"
-            className="flat-button"
+            className="flat-button resume"
           >
             VIEW RESUME
           </a>
