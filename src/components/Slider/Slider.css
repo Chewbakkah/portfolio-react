@@ -31,7 +31,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #ffffff;
+  background: #000000;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
@@ -75,5 +75,5 @@
   background: #000000;
 }
 .dot.active {
-  background: rgb(255, 255, 255);
+  background: #ffffff;
 }
