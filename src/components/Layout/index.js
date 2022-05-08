@@ -3,7 +3,7 @@ import Sidebar from "../Sidebar";
 
 const Layout = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid main-style">
             <div className="row">
                 <div className="col-11">
                     <Outlet />
