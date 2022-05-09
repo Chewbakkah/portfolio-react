@@ -4,7 +4,7 @@ const dataSlider = [
   {
     id: uuidv4(),
     title: "Custom Homepage",
-    subTitle: "For our first of three group projects during The Coding Bootcamp at UT Austin. I served as project manager and handled the UI and front-end design. We built a custom browser landing page that used HTML, CSS, and JavaScript. The landing page was fully modular and had a pop-in control panel to allow customization. Being that it was the first project of the class the code was based on simple concepts and would have benefited from lessons we learned soon after its due date.",
+    subTitle: "For our first of three group projects during The Coding Bootcamp at UT Austin. I served as project manager and handled the UI and front-end design. We built a custom browser landing page that used HTML, CSS, and JavaScript. The landing page was fully modular and had a pop-in control panel to allow customization. Being that it was the first project of the class, the code was based on simple concepts and would have benefited from lessons we learned soon after its due date.",
     url: "https://github.com/Chewbakkah/Browser-Landing-Page"
   },
   {
