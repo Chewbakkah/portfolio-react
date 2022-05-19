@@ -63,6 +63,11 @@ const About = () => {
               <FontAwesomeIcon icon={faNodeJs} />
             </div>
           </div>
+          <div className="codewarsRow">
+            <h6>CodeWars Practice:</h6>
+            <a target="_blank"
+            rel="noreferrer" href="https://www.codewars.com/users/Chewbakkah"><img src="https://www.codewars.com/users/Chewbakkah/badges/large" /></a>
+          </div>
           <a
             target="_blank"
             rel="noreferrer"
